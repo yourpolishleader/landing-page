@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+}
+
+.section-1 {
+	background-color: #1F2937;
+	height: 300px;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	margin: 0px 0px 0px 20px;
+	font-size: 24px;
+	color: #F9FAF8;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.links {
+
+}
