@@ -13,13 +13,19 @@ body {
 }
 
 .icon {
-	margin: 0px 0px 0px 20px;
-	font-size: 24px;
+	padding: 0 0 0 40px;
+	font-size: 20px;
 	color: #F9FAF8;
 	font-family: sans-serif;
 	font-weight: bold;
 }
 
-.links {
+ul {
+	list-style-type: none;
+	margin: 0px;
+}
 
+a {
+	text-decoration: none;
+	color: white;
 }
