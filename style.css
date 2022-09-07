@@ -53,11 +53,12 @@ a:hover {
 	font-weight: bolder;
 	font-family: sans-serif;
 	margin-top: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	width: 300px;
 }
 
 .text-1 {
+	margin-top: 5px;
 	color: #E5E7EB;
 	font-size: 18px;
 	font-family: sans-serif;
