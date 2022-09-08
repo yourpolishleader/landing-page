@@ -67,5 +67,11 @@ a:hover {
 }
 
 .main-button {
-
+	border: none;
+	background-color: #3882F6;
+	width: 100px;
+	height: 30px;
+	color: #F9FAF8;
+	font-weight: bold;
+	border-radius: 7px;
 }
