@@ -36,3 +36,23 @@ ul li a {
   font-size: 24px;
   font-weight: bold;
 }
+
+.hero-main-text {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-section {
+  height: 300px;
+}
+
+.hero-image {
+  width: 350px;
+  height: 200px;
+}
