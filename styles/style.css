@@ -164,6 +164,7 @@ h3 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .sec4-main-text {
