@@ -125,7 +125,7 @@ h3 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 100px;
+  height: 400px;
 }
 
 .quote {
@@ -140,6 +140,53 @@ h3 {
   font-size: 22px;
   margin-left: 700px;
 }
+
+.section-4 {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-container {
+  background-color: #3882F6;
+  width: 65%;
+  height: 50%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sec4-main-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.sec4-second-text {
+  font-size: 20px;
+}
+
+.sec4-button {
+  width: 150px;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  background-color: #3882F6;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sec4-button:hover {
+  cursor: pointer;
+}
+
+
+
+
 
 
 
