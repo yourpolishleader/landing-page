@@ -79,18 +79,23 @@ a:hover {
   background-color: #3882F6;
   padding: 8px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
   font-size: 16px;
   margin-top: 10px;
   cursor: pointer;
 }
 
+.hero-button:hover {
+  background-color: white;
+  color: #3882F6;
+}
+
 h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  height: 130px;
   font-size: 36px;
   font-weight: bold;
   color: #1F2937;
@@ -109,13 +114,14 @@ h3 {
 .informations p {
   text-align: center;
   margin-top: 5px;
-  width: 150px;
+  width: 180px;
   color: rgb(82, 82, 82);
+  font-size: 18px;
 }
 
 .informations img {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
 }
 
@@ -182,6 +188,19 @@ h3 {
 
 .sec4-button:hover {
   cursor: pointer;
+  background-color: white;
+  color: #3882F6;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  height: 100px;
+  font-size: 18px;
 }
 
 
