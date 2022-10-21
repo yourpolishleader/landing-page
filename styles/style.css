@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
-  background-color: #1F2937;
+  background-color: #7d4e57;
 }
 
 nav {
@@ -33,7 +35,7 @@ ul li a {
 }
 
 a:hover {
-  color:lightcoral;
+  text-decoration: underline;
 }
 
 .logo {
@@ -59,12 +61,13 @@ a:hover {
 
 .hero-image {
   width: 500px;
-  height: 238px;
-  object-fit: cover; /* <--image shrinking to fit the container */
+  height: 243px;
+  object-fit: cover;
 }
 
 .text-and-button {
   width: 500px;
+  height: 243px;
 }
 
 .hero-section {
@@ -144,6 +147,7 @@ h3 {
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
+  font-family: serif;
 }
 
 .author {
@@ -151,7 +155,8 @@ h3 {
   font-weight: bold;
   font-size: 23px;
   justify-content: flex-end;
-  margin-right: 60px;
+  margin-right: 50px;
+  font-family: serif;
 }
 
 .section-4 {
@@ -204,7 +209,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1F2937;
+  background-color: #7d4e57;
   color: #E5E7EB;
   height: 100px;
   font-size: 18px;
