@@ -8,7 +8,7 @@
 }
 
 header {
-  background-color: #7d4e57;
+  background-color: #e07a5f;
 }
 
 nav {
@@ -62,7 +62,7 @@ a:hover {
 .hero-image {
   width: 500px;
   height: 243px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .text-and-button {
@@ -72,7 +72,7 @@ a:hover {
 
 .hero-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -209,7 +209,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7d4e57;
+  background-color: #e07a5f;
   color: #E5E7EB;
   height: 100px;
   font-size: 18px;
