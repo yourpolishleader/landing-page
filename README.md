@@ -1,2 +1,1 @@
-Landing Page Project
---> https://www.theodinproject.com/ <--
+Project Demo --> https://yourpolishleader.github.io/landing-page/
