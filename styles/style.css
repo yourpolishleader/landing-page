@@ -14,6 +14,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding-top: 15px;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -53,7 +54,7 @@ a:hover {
 }
 
 .hero-section {
-  height: 550px;
+  height: 495px;
 }
 
 .hero-image {
@@ -128,23 +129,29 @@ h3 {
 .section-3 {
   background-color: #E5E7EB;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  height: 400px;
+  padding: 120px 0px 120px 0px;
+}
+
+.sec3-text {
+  min-width: 400px;
+  max-width: 50%;
 }
 
 .quote {
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
-  width: 1000px;
 }
 
 .author {
+  display: flex;
   font-weight: bold;
-  font-size: 22px;
-  margin-left: 700px;
+  font-size: 23px;
+  justify-content: flex-end;
+  margin-right: 60px;
 }
 
 .section-4 {
@@ -156,8 +163,8 @@ h3 {
 
 .section4-container {
   background-color: #3882F6;
-  width: 65%;
-  height: 50%;
+  width: 60%;
+  height: 45%;
   border-radius: 10px;
   color: white;
   display: flex;
